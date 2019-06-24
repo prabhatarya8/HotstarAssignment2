@@ -22,13 +22,14 @@ Controller
     
     
  **Run**
+ 
  Just import the project and click on run
  
  Once it starts showing **Started Application in 6.705 seconds (JVM running for 7.752)**
  
  Open postman and hit api for Post
  
-POST /hotstar HTTP/1.1
+**POST /hotstar HTTP/1.1
 Host: localhost:8080
 Content-Type: application/json
 Authorization: Basic YWRtaW46YWRtaW4=
@@ -37,10 +38,10 @@ Postman-Token: 3750663a-14c7-436a-872c-c8f4260ee18a
 {
 	"showname":"admin2",
 	"trayname":"admin2"
-  
+  }**
   
 Now hit the get request
-GET /hotstar/details/admin2 HTTP/1.1
+**GET /hotstar/details/admin2 HTTP/1.1**
 Host: localhost:8080
 
 
